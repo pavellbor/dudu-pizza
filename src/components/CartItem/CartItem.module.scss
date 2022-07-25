@@ -1,0 +1,51 @@
+.root {
+  display: grid;
+  grid-template-columns: 150px 1fr 150px 90px auto;
+  align-items: center;
+  gap: 70px;
+  font-size: 28px;
+}
+
+.image {
+  width: 150px;
+  height: auto;
+}
+
+.title {
+  margin: 0 0 10px;
+}
+
+.desc {
+  margin: 0;
+  font-size: 20px;
+  color: #828282;
+}
+
+.count {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.countBtn {
+  display: grid;
+  place-items: center;
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  &:disabled {
+    opacity: 0.2;
+  }
+}
+
+.removeBtn {
+  display: grid;
+  place-items: center;
+  border: none;
+  background: none;
+  opacity: 0.2;
+  cursor: pointer;
+}

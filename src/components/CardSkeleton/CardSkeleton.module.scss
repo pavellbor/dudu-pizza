@@ -1,0 +1,58 @@
+.root {
+  display: grid;
+  align-content: start;
+  justify-content: center;
+  padding: 48px;
+	animation: Flashing 0.8s ease-in-out infinite;
+}
+
+.image {
+  width: 230px;
+  height: 230px;
+  margin-bottom: 30px;
+  background: #f9f9f9;
+  border-radius: 50%;
+}
+
+.title {
+  height: 30px;
+  margin-bottom: 20px;
+  background: #f9f9f9;
+}
+
+.desc {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 30px;
+}
+
+.textRow {
+  height: 15px;
+  background: #f9f9f9;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.price {
+  background: #f9f9f9;
+}
+
+.button {
+  height: 45px;
+  background: #f9f9f9;
+  border-radius: 26px;
+}
+
+@keyframes Flashing {
+  from {
+    opacity: 0.7;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

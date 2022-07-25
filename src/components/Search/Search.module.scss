@@ -1,0 +1,32 @@
+.root {
+  position: relative;
+  box-sizing: border-box;
+  width: 400px;
+  height: 52px;
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  border-radius: 42px;
+
+  &.active {
+    border-color: #ff820f;
+  }
+
+  input {
+    height: 100%;
+    padding: 0 25px;
+    border: none;
+    background: none;
+    outline: none;
+
+    &::placeholder {
+      color: rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  img {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}

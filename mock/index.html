@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="visually-hidden">Дуду Пицца</h1>
+      <header class="page-header">
+        <a class="logo">
+          <img class="image" src="img/Logo.svg" width="273" height="43" alt="Logo" />
+        </a>
+        <nav class="nav">
+          <a class="link" href="#">Пицца</a>
+          <a class="link" href="#">Закуски</a>
+          <a class="link" href="#">Десерты</a>
+          <a class="link" href="#">Напитки</a>
+          <a class="link button --filled" href="#">Корзина</a>
+        </nav>
+      </header>
+      <main class="page-main">
+        <section class="intro">
+          <img class="image" src="img/Intro.png" width="540" height="566" alt="Intro" />
+          <div class="wrapper">
+            <figure class="block">
+              <blockquote class="quote">“Уволюсь, если найдешь невкусное блюдо”</blockquote>
+              <figcaption class="caption">— шеф-повар</figcaption>
+            </figure>
+            <input class="search" type="search" placeholder="Название блюда" />
+          </div>
+        </section>
+        <section class="default-block">
+          <h2 class="title">Сытная пицца</h2>
+          <div class="card-list">
+            <div class="item">
+              <img class="image" src="img/Pizza.png" width="255" height="255" alt="Пицца" />
+              <h3 class="title">Мясной Микс</h3>
+              <p class="desc">
+                Пастрами из индейки, острая чоризо, пикантная пепперони, бекон, моцарелла, томатный
+                соус
+              </p>
+              <div class="footer">
+                <span class="price">от 469 ₽</span>
+                <button class="button --light">Выбрать</button>
+              </div>
+            </div>
+            <div class="item --empty">
+              <button class="button --light">Больше пицц</button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

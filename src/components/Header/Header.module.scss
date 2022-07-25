@@ -1,0 +1,36 @@
+.root {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.logo {
+  transition: opacity 0.2s ease-in-out;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.nav {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 30px;
+
+  a {
+    transition: opacity 0.2s ease-in-out;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  :global {
+    .active {
+      font-weight: bold;
+    }
+  }
+}
