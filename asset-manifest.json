@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "https://pavellbor.github.io/dudu-pizza/static/css/main.f0abe4f9.css",
-    "main.js": "https://pavellbor.github.io/dudu-pizza/static/js/main.3c28921b.js",
+    "main.js": "https://pavellbor.github.io/dudu-pizza/static/js/main.d73505f6.js",
     "index.html": "https://pavellbor.github.io/dudu-pizza/index.html",
     "main.f0abe4f9.css.map": "https://pavellbor.github.io/dudu-pizza/static/css/main.f0abe4f9.css.map",
-    "main.3c28921b.js.map": "https://pavellbor.github.io/dudu-pizza/static/js/main.3c28921b.js.map"
+    "main.d73505f6.js.map": "https://pavellbor.github.io/dudu-pizza/static/js/main.d73505f6.js.map"
   },
   "entrypoints": [
     "static/css/main.f0abe4f9.css",
-    "static/js/main.3c28921b.js"
+    "static/js/main.d73505f6.js"
   ]
 }
